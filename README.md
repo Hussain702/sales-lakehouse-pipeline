@@ -6,7 +6,7 @@ Enterprise-grade Sales Data Warehouse using the **Medallion Architecture** (Bron
 ---
 
 ## Architecture
-
+![Architecture](./architecture.png)
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                     DATA SOURCES (3 Systems)                    │
