@@ -1,0 +1,16 @@
+product_id,product_name,category,sub_category,brand,unit_cost,unit_price,sku,supplier_id,is_active,created_date,weight_kg
+P001,Laptop Pro 15,Electronics,Computers,TechBrand,650.00,999.99,SKU-LAP-001,SUP001,true,2020-01-10,2.5
+P002,Wireless Mouse,Electronics,Peripherals,ClickMaster,12.00,29.99,SKU-MOU-001,SUP001,true,2020-01-10,0.1
+P003,Office Chair Deluxe,Furniture,Seating,ComfortPlus,120.00,249.99,SKU-CHR-001,SUP002,true,2020-02-15,12.0
+P004,Standing Desk,Furniture,Desks,WorkRight,180.00,399.99,SKU-DSK-001,SUP002,true,2020-02-15,25.0
+P005,USB-C Hub 7-Port,Electronics,Accessories,HubTech,18.00,49.99,SKU-HUB-001,SUP001,true,2020-03-20,0.2
+P006,Mechanical Keyboard,Electronics,Peripherals,TypePro,45.00,89.99,SKU-KEY-001,SUP001,true,2020-03-20,0.9
+P007,Monitor 27 inch 4K,Electronics,Displays,VisionMax,280.00,499.99,SKU-MON-001,SUP003,true,2020-04-05,6.0
+P008,Webcam HD 1080p,Electronics,Peripherals,CamPro,25.00,69.99,SKU-CAM-001,SUP001,true,2020-04-05,0.3
+P009,Desk Lamp LED,Furniture,Lighting,BrightHome,15.00,34.99,SKU-LMP-001,SUP004,true,2020-05-12,0.8
+P010,Noise Cancelling Headphones,Electronics,Audio,SoundElite,80.00,179.99,SKU-HPH-001,SUP003,true,2020-05-12,0.4
+P011,Tablet 10 inch,Electronics,Computers,TechBrand,200.00,349.99,SKU-TAB-001,SUP001,true,2020-06-18,0.5
+P012,Printer Laser Color,Electronics,Printing,PrintMaster,150.00,299.99,SKU-PRN-001,SUP005,true,2020-06-18,8.5
+P013,Ergonomic Mouse Pad,Furniture,Accessories,ComfortPlus,5.00,14.99,SKU-MPD-001,SUP002,true,2020-07-01,0.3
+P014,Smart Speaker,Electronics,Audio,SoundElite,40.00,99.99,SKU-SPK-001,SUP003,true,2020-07-01,0.6
+P015,Filing Cabinet 3-Drawer,Furniture,Storage,WorkRight,95.00,189.99,SKU-FIL-001,SUP002,true,2020-08-10,18.0

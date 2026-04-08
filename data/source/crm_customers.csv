@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,phone,city,state,country,zip_code,customer_segment,registration_date
+C001,Alice,Johnson,alice.johnson@email.com,+1-555-0101,New York,NY,USA,10001,Premium,2021-03-15
+C002,Bob,Smith,bob.smith@email.com,+1-555-0102,Los Angeles,CA,USA,90001,Standard,2020-06-22
+C003,Carol,Williams,carol.w@email.com,+1-555-0103,Chicago,IL,USA,60601,Premium,2019-11-08
+C004,David,Brown,david.b@email.com,+1-555-0104,Houston,TX,USA,77001,Standard,2022-01-30
+C005,Eva,Davis,eva.davis@email.com,+1-555-0105,Phoenix,AZ,USA,85001,VIP,2018-07-19
+C006,Frank,Miller,frank.m@email.com,+1-555-0106,Philadelphia,PA,USA,19101,Standard,2021-09-05
+C007,Grace,Wilson,grace.w@email.com,+1-555-0107,San Antonio,TX,USA,78201,Premium,2020-12-14
+C008,Henry,Moore,henry.m@email.com,+1-555-0108,San Diego,CA,USA,92101,VIP,2017-04-28
+C009,Iris,Taylor,iris.t@email.com,+1-555-0109,Dallas,TX,USA,75201,Standard,2023-02-11
+C010,James,Anderson,james.a@email.com,+1-555-0110,San Jose,CA,USA,95101,Premium,2022-08-17
+C011,Karen,Thomas,karen.t@email.com,+1-555-0111,Austin,TX,USA,73301,VIP,2019-03-22
+C012,Leo,Jackson,leo.j@email.com,+1-555-0112,Jacksonville,FL,USA,32099,Standard,2021-07-09
+C013,Mia,White,mia.w@email.com,+1-555-0113,Columbus,OH,USA,43085,Premium,2020-05-16
+C014,Noah,Harris,noah.h@email.com,+1-555-0114,Fort Worth,TX,USA,76101,Standard,2023-04-03
+C015,Olivia,Martin,olivia.m@email.com,+1-555-0115,Charlotte,NC,USA,28201,VIP,2018-10-27
