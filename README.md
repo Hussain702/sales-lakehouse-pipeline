@@ -7,35 +7,6 @@ Enterprise-grade Sales Data Warehouse using the **Medallion Architecture** (Bron
 
 ## Architecture
 ![Architecture](./architecture.png)
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     DATA SOURCES (3 Systems)                    │
-│   [CRM System]        [ERP System]       [E-Commerce Platform]  │
-└──────────┬─────────────────┬──────────────────┬────────────────┘
-           │                 │                  │
-           ▼                 ▼                  ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     BRONZE LAYER (Raw)                          │
-│  bronze.crm_customers  bronze.erp_products  bronze.ecom_orders  │
-│             (Raw ingestion, no transformation)                  │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     SILVER LAYER (Cleansed)                     │
-│   silver.customers    silver.products    silver.orders          │
-│         (Validated, deduplicated, standardized)                 │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     GOLD LAYER (Star Schema DW)                 │
-│                                                                 │
-│   dim_customer (SCD1)   dim_product (SCD1)   dim_date           │
-│              dim_geography (SCD1)                               │
-│                    fact_sales                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
